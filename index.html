@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>グッズサンプル</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="item" data-name="パーカー">
+   <p class="item-name">MOON WORKER パーカー</p> <!-- 商品名テキスト -->
+
+  <img src="https://via.placeholder.com/300x200?text=パーカー" alt="パーカー">
+
+  <div class="options">
+    <label>
+      色:
+      <select class="color">
+        <option value="">選択</option>
+        <option value="白">白</option>
+        <option value="黒">黒</option>
+        <option value="ベージュ">ベージュ</option>
+      </select>
+    </label>
+
+    <label>
+      サイズ:
+      <select class="size">
+        <option value="">選択</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+    </label>
+
+    <label>
+      個数:
+      <select class="quantity">
+        <option value="0">0個</option>
+        <option value="1">1個</option>
+        <option value="2">2個</option>
+      </select>
+    </label>
+  </div>
+</div>
+
+<div class="item" data-name="宇宙兄弟　夏まつり2WAYクリアバッグ">
+    <p class="item-name">宇宙兄弟　夏まつり2WAYクリアバッグ</p>
+  <img src="https://corkinc.fs-storage.jp/fs2cabinet/030/030315670000/030315670000-m-01-dl.jpg" alt="宇宙兄弟　夏まつり2WAYクリアバッグ">
+  <select class="quantity">
+    <option value="0">0個</option>
+    <option value="1">1個</option>
+    <option value="2">2個</option>
+  </select>
+</div>
+
+<div class="item" data-name="商品C">
+  <img src="https://via.placeholder.com/300x200?text=商品A" alt="商品C">
+  <select class="quantity">
+    <option value="0">0個</option>
+    <option value="1">1個</option>
+    <option value="2">2個</option>
+  </select>
+</div>
+
+<button id="submit">決定</button>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

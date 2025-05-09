@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 0;
+}
+.item {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+.item select {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.options label {
+  display: inline-block;
+  margin: 5px;
+}
+.options select {
+  padding: 5px;
+  font-size: 14px;
+}
